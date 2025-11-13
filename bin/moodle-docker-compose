@@ -20,7 +20,7 @@ then
 fi
 
 export ASSETDIR="${basedir}/assets"
-dockercompose="docker compose
+dockercompose="docker-compose"
 
 dockercompose="${dockercompose} -f ${basedir}/base.yml"
 dockercompose="${dockercompose} -f ${basedir}/service.mail.yml"
